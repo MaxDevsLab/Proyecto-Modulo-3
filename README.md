@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| 📅 **Fecha** | 20 de febrero de 2026 |
+| 📅 **Fecha** | 23 de febrero de 2026 |
 | 👩‍🏫 **Docente** | Sabina Romero |
 | 🎓 **Estudiante** | Maximiliano Vilugrón |
 | 📚 **Módulo** | 3 — Fundamentos de Programación en JavaScript |
@@ -30,8 +30,9 @@ consola-app/
    - **Windows/Linux:** `F12` → pestaña "Consola"
    - **Mac:** `Cmd + Opt + J`
    - O: clic derecho → "Inspeccionar" → "Consola"
-3. La app se ejecuta automáticamente y pedirá tu nombre.
-4. Responde los `prompt()` con los datos que se solicitan.
+3. Para iniciar la app en la consola ejecuta la fx iniciarApp()
+   a continiuación pedirá tu nombre y se iniciará la app por consola.
+5. Responde los `prompt()` con los datos que se solicitan.
 
 > ✅ No requiere instalación, servidor ni conexión a internet.
 
@@ -48,7 +49,7 @@ consola-app/
 console.log('¡Hola mundo!');
 
 // Pedir datos al usuario (devuelve un string)
-const nombre = prompt('¿Cuál es tu nombre?');
+const nombre = prompt('¿Cuál es tu nombre?') || 'Estudiandte';
 
 // Mostrar un aviso emergente
 alert(`¡Hola, ${nombre}!`);
