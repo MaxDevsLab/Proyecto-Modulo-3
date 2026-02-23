@@ -17,6 +17,7 @@ Aplicación JavaScript que se ejecuta en la **consola del navegador**. Cubre los
 ```
 consola-app/
 ├── index.html   → Página de instrucciones para abrir la consola
+├── style.css    → Archivo .css con estilos del index.html
 ├── app.js       → Aplicación completa (5 lecciones)
 └── README.md    → Este archivo
 ```
