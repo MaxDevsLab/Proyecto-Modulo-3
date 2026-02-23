@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Console App — Módulo 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Terminal decorativa -->
+  <div class="terminal-header">
+    <div class="terminal-titlebar">
+      <div class="dot dot-r"></div>
+      <div class="dot dot-y"></div>
+      <div class="dot dot-g"></div>
+      <span class="terminal-title">app.js — JS Console App</span>
+    </div>
+    <div class="terminal-body">
+      <div class="prompt-line">
+        <span style="color:var(--dim)">$</span>
+        <span class="cmd"> node app.js</span>
+      </div>
+      <div class="prompt-line" style="color:var(--verde)">▶ Iniciando Aplicación de Consola JS...</div>
+      <div class="prompt-line" style="color:var(--texto)">
+        ════════════════════════════════════════
+      </div>
+      <div class="prompt-line"><span class="comment">// Módulo 3 — Fundamentos de Programación</span></div>
+      <div class="prompt-line"><span class="comment">// Lección 1: console.log, prompt, alert</span></div>
+      <div class="prompt-line"><span class="comment">// Lección 2: Variables, condicionales</span></div>
+      <div class="prompt-line"><span class="comment">// Lección 3: Arreglos y ciclos</span></div>
+      <div class="prompt-line"><span class="comment">// Lección 4: Funciones</span></div>
+      <div class="prompt-line"><span class="comment">// Lección 5: Objetos</span></div>
+      <div class="prompt-line" style="color:var(--amarillo)">⏳ Abre la consola del navegador para comenzar<span class="cursor"></span></div>
+    </div>
+  </div>
+
+  <!-- Instrucciones -->
+  <div class="card">
+    <div class="badge-modulo">MÓDULO 3 · ALKEMY</div>
+    <h1 class="card-titulo">🖥 Aplicación de Consola JS</h1>
+    <p class="card-sub">
+      Esta app se ejecuta en la <strong>consola del navegador</strong>.
+      Sigue los pasos para abrirla y comenzar.
+    </p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-texto">
+          <h3>Abre la Consola del Navegador</h3>
+          <p>Presiona el atajo de teclado correspondiente a tu sistema operativo (ver abajo). O haz clic derecho → "Inspeccionar" → pestaña "Consola".</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-texto">
+          <h3>Al abrir la consola escribe la fx<code>iniciarApp()</code></h3>
+          <p>El archivo <code>app.js</code> ya está enlazado. Al abrir la consola y ejecutar la fx verás los mensajes de las 5 lecciones ejecutándose.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-texto">
+          <h3>Responde los prompts interactivos</h3>
+          <p>La app pedirá datos como tu nombre y números para realizar operaciones. Escríbelos en las ventanas emergentes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-texto">
+          <h3>Explora el código en app.js</h3>
+          <p>Cada lección está separada con comentarios. El código está documentado paso a paso para facilitar el aprendizaje.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="kbd-row">
+      <div class="kbd-item"><kbd>F12</kbd> Chrome / Edge / Firefox</div>
+      <div class="kbd-item"><kbd>Cmd ⌘</kbd>+<kbd>Opt ⌥</kbd>+<kbd>J</kbd> Mac Chrome</div>
+      <div class="kbd-item"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd> Windows</div>
+    </div>
+
+  </div>
+
+  <!-- Script principal -->
+  <script src="app.js"></script>
+  <script>
+  console.log('%c🚀 App lista. Escribe iniciarApp() en la consola para comenzar.', 
+    'color:#4ade80; font-size:14px; font-weight:bold; background:#0f172a; padding:6px 12px; border-radius:6px;');
+</script>
+</body>
+</html>
