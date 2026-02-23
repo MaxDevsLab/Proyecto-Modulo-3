@@ -31,8 +31,8 @@ consola-app/
    - **Windows/Linux:** `F12` → pestaña "Consola"
    - **Mac:** `Cmd + Opt + J`
    - O: clic derecho → "Inspeccionar" → "Consola"
-3. Para iniciar la app en la consola ejecuta la fx iniciarApp()
-   a continiuación pedirá tu nombre y se iniciará la app por consola.
+3. Para iniciar la app debes ejecutar la fx iniciarApp() en la consola,
+   a continiuación pedirá tu nombre y se iniciará la app.
 5. Responde los `prompt()` con los datos que se solicitan.
 
 > ✅ No requiere instalación, servidor ni conexión a internet.
