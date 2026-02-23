@@ -50,7 +50,7 @@ consola-app/
 console.log('¡Hola mundo!');
 
 // Pedir datos al usuario (devuelve un string)
-const nombre = prompt('¿Cuál es tu nombre?') || 'Estudiandte';
+const nombre = prompt('¿Cuál es tu nombre?') || 'Estudiante';
 
 // Mostrar un aviso emergente
 alert(`¡Hola, ${nombre}!`);
